@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Database
+data/
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+data/failed_records.jsonl
+
+
+*.pyc
