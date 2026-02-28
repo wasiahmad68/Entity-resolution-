@@ -1,0 +1,122 @@
+[
+    {
+        "DATA_SOURCE": "NEW_MASTER_UNIFIED",
+        "RECORD_ID": "1001",
+        "FEATURES": [
+            {
+                "RECORD_TYPE": "PERSON"
+            },
+            {
+                "NAME_TYPE": "PRIMARY",
+                "NAME_FIRST_PHONETIC": "JAMES",
+                "NAME_LAST_PHONETIC": "BOND"
+            },
+            {
+                "NATIONAL_ID_NUMBER": "NID-007"
+            },
+            {
+                "PASSPORT_NUMBER": "UK-007",
+                "PASSPORT_COUNTRY": "GBR"
+            },
+            {
+                "DOB_YEAR": "1980"
+            },
+            {
+                "ADDR_CITY": "LONDON"
+            },
+            {
+                "PHONE_NUMBER": "555-0007"
+            }
+        ]
+    },
+    {
+        "DATA_SOURCE": "NEW_MASTER_UNIFIED",
+        "RECORD_ID": "1002",
+        "FEATURES": [
+            {
+                "NAME_FIRST_PHONETIC": "JIMMY",
+                "NAME_LAST_PHONETIC": "B"
+            },
+            {
+                "NATIONAL_ID_NUMBER": "NID-007"
+            },
+            {
+                "RECORD_TYPE": "PERSON"
+            }
+        ]
+    },
+    {
+        "DATA_SOURCE": "NEW_MASTER_UNIFIED",
+        "RECORD_ID": "1003",
+        "FEATURES": [
+            {
+                "NAME_FIRST_PHONETIC": "J",
+                "NAME_LAST_PHONETIC": "BOND"
+            },
+            {
+                "PASSPORT_NUMBER": "UK-007",
+                "PASSPORT_COUNTRY": "GBR"
+            },
+            {
+                "RECORD_TYPE": "PERSON"
+            }
+        ]
+    },
+    {
+        "DATA_SOURCE": "NEW_MASTER_UNIFIED",
+        "RECORD_ID": "1004",
+        "FEATURES": [
+            {
+                "NAME_FIRST_PHONETIC": "JAMES",
+                "NAME_LAST_PHONETIC": "BOND"
+            },
+            {
+                "DOB_YEAR": "1980"
+            },
+            {
+                "ADDR_CITY": "LONDON"
+            },
+            {
+                "NATIONAL_ID_NUMBER": "NID-XYZ"
+            },
+            {
+                "RECORD_TYPE": "PERSON"
+            }
+        ]
+    },
+    {
+        "DATA_SOURCE": "NEW_MASTER_UNIFIED",
+        "RECORD_ID": "1005",
+        "FEATURES": [
+            {
+                "NAME_FIRST_PHONETIC": "JAMES",
+                "NAME_LAST_PHONETIC": "SMITH"
+            },
+            {
+                "ADDR_CITY": "LONDON"
+            },
+            {
+                "PHONE_NUMBER": "555-9999"
+            },
+            {
+                "RECORD_TYPE": "PERSON"
+            }
+        ]
+    },
+    {
+        "DATA_SOURCE": "NEW_MASTER_UNIFIED",
+        "RECORD_ID": "1006",
+        "FEATURES": [
+            {
+                "NAME_FIRST_PHONETIC": "MONEYPENNY",
+                "NAME_LAST_PHONETIC": "UNKNOWN"
+            },
+            {
+                "PHONE_NUMBER": "555-0007"
+            },
+            {
+                "RECORD_TYPE": "PERSON"
+            }
+        ]
+    }
+]
