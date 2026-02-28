@@ -15,5 +15,8 @@ COPY . .
 # Ensure standard import paths map natively
 ENV PYTHONPATH=/app
 
-# Keep the container running infinitely so users can shell in, run tests, or execute batch scripts seamlessly
-CMD ["tail", "-f", "/dev/null"]
+# Make entrypoint executable
+RUN chmod +x docker-entrypoint.sh
+
+# Run entrypoint script
+ENTRYPOINT ["/app/docker-entrypoint.sh"]
