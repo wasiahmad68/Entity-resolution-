@@ -1,0 +1,31 @@
+version: '3.8'
+
+
+services:
+  er-engine:
+    user: "${UID}:${GID}"
+    build: .
+    
+    environment:
+      - DATABASE_URL=sqlite:////app/data/er_engine.db
+
+    volumes:
+      # ✅ only source code for dev hot reload
+      - .:/app
+      
+      # 📁 bind the host `data` directory so the SQLite file lives there
+      #    (this makes it visible/editable from the host filesystem).
+      #    you may need to `sudo chown`/`chmod` this directory if the
+      #    container writes as root; the entrypoint already tries to fix
+      #    permissions on startup.
+      - ./data:/app/data
+
+# if you prefer to use a Docker-managed named volume instead of the
+# host directory, revert the above line and uncomment the block below.
+#volumes:
+#  er_data:
+
+
+
+
+

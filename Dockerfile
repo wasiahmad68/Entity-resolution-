@@ -19,4 +19,4 @@ ENV PYTHONPATH=/app
 RUN chmod +x docker-entrypoint.sh
 
 # Run entrypoint script
-ENTRYPOINT ["/app/docker-entrypoint.sh"]
+ENTRYPOINT ["/bin/bash", "/app/docker-entrypoint.sh"]

@@ -23,3 +23,8 @@ This is a high-performance Entity Resolution (ER) engine designed to standardize
 
 ## Documentation
 Please view the incredibly critical `FEATURES_AND_RULES_GUIDE.md` for explicit formulas on structuring JSON payloads to correctly leverage the framework's native rules!
+
+
+# Run this after the container creation first time to fix user permission for sqlite write operation
+sudo chown -R $(id -u):$(id -g) data/
+sudo chmod -R 755 data/
