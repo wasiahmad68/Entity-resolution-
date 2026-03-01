@@ -8,6 +8,9 @@ services:
     
     environment:
       - DATABASE_URL=sqlite:////app/data/er_engine.db
+    ports:
+      - "8503:8503"
+    # command: streamlit run ui/app.py --server.port=8503 --server.address=0.0.0.0
 
     volumes:
       # ✅ only source code for dev hot reload

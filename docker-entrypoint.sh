@@ -4,8 +4,6 @@ set -e
 echo "Fixing database permissions..."
 
 mkdir -p /app/data
-
-# ✅ SQLite-safe permissions
 chmod -R 777 /app/data
 
 echo "🚀 Starting ER Engine..."
@@ -31,4 +29,8 @@ else
     echo "✅ Database already exists."
 fi
 
-exec tail -f /dev/null
+echo "🌐 Starting Streamlit..."
+
+exec streamlit run ui/app.py \
+  --server.port=8503 \
+  --server.address=0.0.0.0

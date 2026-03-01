@@ -7,3 +7,5 @@ metaphone
 soundex
 networkx
 streamlit-agraph
+PyYAML==6.0.1
+openpyxl
